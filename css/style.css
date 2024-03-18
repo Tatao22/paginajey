@@ -1,0 +1,458 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+
+
+
+
+/*top background*/
+.intro-header { 
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    background: url('https://i0.wp.com/www.audiomusicadigital.com/wp-content/uploads/2021/05/SSL-Cube-Recording_1.jpg?ssl=1') no-repeat center center fixed;
+    background-size: cover;
+    height: 855px;
+}
+.intro-message {
+  position: relative;
+  padding-top: 2%;
+  padding-bottom: 10%;
+ }
+
+.btn:hover {
+	color: #fff;
+  border: 2px outset rgba(0, 0, 0, 0.9);
+  background: rgba(0,0,0, 0.9);
+  transform:scale(1.1);
+  transition: 0.2s;
+  text-shadow: 1px 1px 1px rgba(0,0,0, 20);
+  box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+  letter-spacing: 2px;
+}
+ h1{
+  padding: 50px;
+  text-align: right;
+
+ }
+/*section 2*/
+.content-section-a {
+    padding: 50px 0;
+    background: url('https://i.ytimg.com/vi/DYdmjPKoUz8/maxresdefault.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 855px;
+}
+.bg-overlay2 {
+  margin-top: -50px;
+  background: rgba(255, 255, 255, 0.2);
+  height: 855px;
+}
+  /*self-taught*/
+.container  {
+  
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  overflow: hidden;
+}
+
+.container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70%;
+  height: 40%;
+}
+
+
+p{
+  text-align: center;
+  color: #fff;
+  -webkit-text-stroke: 0.6px #000;
+  font-size: 27px;
+  float: none;
+  text-shadow:500% #000;
+
+}
+/* Portfolio section*/
+.section3 {
+  text-align: center;
+	padding: 70px 0;
+    background: url('https://mindmusic.co/wp-content/uploads/2020/08/Mind-Music-Ag11-2020-2.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 855px;
+    
+}
+
+
+
+.section2{
+ text-align: left;
+  padding: 70px 0;
+  background: url('https://laprensa360.com/wp-content/uploads/2023/11/Guia-de-beneficios-de-un-estudio-de-grabacion-profesional.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 855px;
+ }
+
+
+
+
+    ul.banner-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.banner-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+
+
+
+footer {
+    padding: 50px 0;
+    background: rgba(192, 192, 192, 0.9);
+}
+
+p.copyright {
+    margin: 15px 0 0;
+}
+@import url(https://fonts.googleapis.com/css?family=Share:400,700&subset=latin,latin-ext);
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+    font: 0.75em/1.5 sans-serif;
+    background: #000;
+    margin-top: 50px;
+}
+
+/**
+ * Tabs object.
+ *
+ * 1. Tables (kinda) for layout!
+ * 2. This is the magic bit; make all children occupy equal width.
+ * 3. Required to make the tabs fill their container.
+ * 4. Make each tab pack up horizontally.
+ * 5. Ensure the hit area covers the whole tab.
+ */
+.tabs {
+    margin:  0;
+    padding: 0;
+    list-style: none;
+    display: table; /* [1] */
+    table-layout: fixed; /* [2] */
+    width: 100%; /* [3] */
+}
+
+    .tabs__item {
+        width: 100%;
+        float: left;
+    }
+
+    @media screen and (min-width: 40em) {
+        .tabs__item {
+          display: table-cell; /* [4] */
+          float: none;
+          width: auto;
+        }
+    }
+
+        .tabs__link {
+            display: block; /* [5] */
+        }
+
+
+/**
+ * Primary nav. Extends `.tabs`.
+ *
+ * 1. Stop tabs’ corners leaking out beyond our 4px round.
+ */
+.primary-nav {
+    text-align: center;
+    border-radius: 0;
+    overflow: hidden; /* [1] */
+}
+
+        .primary-nav a {
+            padding: .75em 1em;
+            color: white;
+            background: rgba(255, 255, 255, 0.1);
+            color: #fff;
+            text-decoration: none;
+            border-right: 1px solid #000;
+            font-family: Share, Helvetica, Arial, sans-serif;
+            font-weight: 400;
+            font-size: 1.75em;
+        }
+
+        .primary-nav a:hover {
+            color: black;
+            background: #3cb976;
+        }
+
+/* Responsive-nav.js */
+
+.js .nav-collapse {
+  clip: rect(0 0 0 0);
+  max-height: 0;
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  zoom: 1;
+}
+
+.nav-collapse.opened {
+  max-height: 9999px;
+}
+
+.disable-pointer-events {
+  pointer-events: none !important;
+}
+
+.nav-toggle {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+@media screen and (min-width: 40em) {
+  .js .nav-collapse {
+    position: relative;
+  }
+  .js .nav-collapse.closed {
+    max-height: none;
+  }
+  .nav-toggle {
+    display: none;
+  }
+}
+
+.nav-collapse {
+  list-style: none;
+  width: 100%;
+  float: left;
+}
+
+.fixed {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.nav-toggle {
+  position: fixed;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-decoration: none;
+  text-indent: -999px;
+  position: relative;
+  overflow: hidden;
+  width: 70px;
+  height: 55px;
+  float: right;
+}
+
+.nav-toggle:before {
+  color: #35a370; /* Edit this to change the icon color */
+  font-family: "responsivenav", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  font-size: 28px;
+  text-transform: none;
+  position: absolute;
+  content: "≡";
+  text-indent: 0;
+  text-align: center;
+  line-height: 55px;
+  speak: none;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.nav-toggle.active::before {
+  font-size: 24px;
+  content:"x";
+}
+
+html  {
+  background: #000;
+  font-family: 'Noto Serif', serif;
+  -webkit-font-smoothing: antialiased;
+  text-align: left;
+}
+
+video#bgvid { 
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translateX(-50%) translateY(-50%);
+  background-size: cover; 
+}
+
+header {
+position: relative;
+margin: 30px 0;
+}
+
+header:after {
+content: '';
+width: 460px;
+height: 15px;
+background: url(images/intro-div.svg) no-repeat center;
+display: inline-block;
+text-align: center;
+background-size: 70%;
+}
+
+h1 {
+color: #fff;
+font-size: 50px;
+font-weight: 400;
+letter-spacing: 0.18em;
+text-transform: uppercase;
+margin: 0;
+}
+
+h2 {
+color: #fff;
+font-size: 24px;
+font-style: italic;
+font-weight: 400;
+margin: 0 0 30px;
+}
+
+.nowplaying {
+  text-align: left;
+font-size: 110px;
+line-height: 1;
+color: #ffffff;
+text-shadow: 0 0 5rem #028ae9;
+transition: all .07s ease;
+min-height: 120px;
+}
+
+.keys {
+display: block;
+width: 100%;
+height: 150px;
+max-width: 580px;
+position: relative;
+margin: -15vh auto 0;
+cursor: none;
+}
+
+.key {
+position: relative;
+border: 4px solid black;
+border-radius: 0.5rem;
+transition: all .07s ease;
+display: block;
+box-sizing: border-box;
+z-index: 2;
+}
+
+.key:not(.sharp) {
+float: left;
+width: 10%;
+height: 100%;
+background: rgba(255, 255, 255, .8);    
+}
+
+.key.sharp {
+position: absolute;
+width: 6%;
+height: 60%;
+background: #000;
+color: #eee;
+top: 0;
+z-index: 3;
+}
+
+.key[data-key="87"] {
+left: 7%;
+}
+
+.key[data-key="69"] {
+left: 17%;
+}
+
+.key[data-key="84"]  {
+left: 37%;
+}
+
+.key[data-key="89"] {
+left: 47%;
+}
+
+.key[data-key="85"] {
+left: 57%;    
+}
+
+.key[data-key="79"] {
+left: 77%;    
+}
+
+.key[data-key="80"] {
+left: 87%;    
+}
+
+.playing {
+transform: scale(.95);
+border-color: #028ae9;
+box-shadow: 0 0 1rem #028ae9;
+}
+
+.hints {
+display: block;
+width: 100%;
+opacity: 0;
+position: absolute;
+bottom: 7px;
+transition: opacity .3s ease-out;
+font-size: 20px;
+}
+
+.keys:hover .hints {
+opacity: 1;
+}
+
+
