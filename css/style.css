@@ -28,7 +28,7 @@ h6 {
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 50px;
     text-align: center;
-    background: url('https://i0.wp.com/www.audiomusicadigital.com/wp-content/uploads/2021/05/SSL-Cube-Recording_1.jpg?ssl=1') no-repeat center center fixed;
+    background-image: url("../images/estudiohome.png"); 
     background-size: cover;
     height: 855px;
 }
@@ -40,7 +40,7 @@ h6 {
 
 .btn:hover {
 	color: #fff;
-  border: 2px outset rgba(0, 0, 0, 0.9);
+  border: 3px outset rgba(0, 0, 0, 0.9);
   background: rgba(0,0,0, 0.9);
   transform:scale(1.1);
   transition: 0.2s;
@@ -56,7 +56,7 @@ h6 {
 /*section 2*/
 .content-section-a {
     padding: 50px 0;
-    background: url('https://i.ytimg.com/vi/DYdmjPKoUz8/maxresdefault.jpg') no-repeat center center fixed;
+    background-image: url("../images/estudioprincipal.jpg"); 
     background-size: cover;
     height: 855px;
 }
@@ -99,20 +99,20 @@ float: left; width: 350px; height: 350px;
 .exp{
   text-align: center;
   color: #fff;
-  -webkit-text-stroke: 0.6px #000;
+  -webkit-text-stroke: 0.1px #000;
   font-size: calc(1em + 1vw);
   line-height: 1em;
   padding: 1em;
   margin: 1em;
   float: none;
-  text-shadow:500% #000;
+ 
 
 }
 /* Portfolio section*/
 .section3 {
   text-align: center;
 	padding: 70px 0;
-    background: url('https://mindmusic.co/wp-content/uploads/2020/08/Mind-Music-Ag11-2020-2.jpg') no-repeat center center fixed;
+  background-image: url("../images/estudioazul.png"); 
     background-size: cover;
     height: 855px;
     width: 100;
@@ -140,7 +140,7 @@ float: left; width: 350px; height: 350px;
 .section2{
  text-align: left;
   padding: 70px 0;
-  background: url('https://laprensa360.com/wp-content/uploads/2023/11/Guia-de-beneficios-de-un-estudio-de-grabacion-profesional.jpg') no-repeat center center fixed;
+  background-image: url("../images/estudioultimo.jpg"); 
   background-size: cover;
   height: 855px;
  }
@@ -345,7 +345,7 @@ html {
 }
 
 html  {
-  background: #000;
+  background: #030202;
   font-family: 'Noto Serif', serif;
   -webkit-font-smoothing: antialiased;
   text-align: left;
