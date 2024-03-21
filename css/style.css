@@ -107,6 +107,28 @@ float: left; width: 350px; height: 350px;
   float: none;
  
 
+  
+}
+.raya1{
+  height: 20px;
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgb(0, 36, 13) 0%, rgba(9,121,43,1) 47%, rgb(4, 34, 22) 100%);
+}
+.raya2{
+  transform: translateY(90%);
+  height: 20px;
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgb(0, 36, 13) 0%, rgba(9,121,43,1) 47%, rgb(4, 34, 22) 100%);
+}
+.raya3{
+  height: 20px;
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgb(0, 36, 13) 0%, rgba(9,121,43,1) 47%, rgb(4, 34, 22) 100%);
+}
+.raya4{
+  height: 20px;
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgb(0, 36, 13) 0%, rgba(9,121,43,1) 47%, rgb(4, 34, 22) 100%);
 }
 /* Portfolio section*/
 .section3 {
@@ -181,7 +203,7 @@ p.copyright {
 html {
     font: 0.75em/1.5 sans-serif;
     background: #000;
-    margin-top: 50px;
+   
 }
 
 /**
@@ -236,16 +258,18 @@ html {
             color: white;
             background: rgba(255, 255, 255, 0.1);
             color: #fff;
+            font-family: "Agbalumo", system-ui;
+            font-weight: 300;
+            font-style: normal;
             text-decoration: none;
             border-right: 1px solid #000;
-            font-family: Share, Helvetica, Arial, sans-serif;
-            font-weight: 400;
-            font-size: 1.75em;
+            font-size: 2em;
         }
 
         .primary-nav a:hover {
             color: black;
-            background: #3cb976;
+            background: #12944f;
+          
         }
 
 /* Responsive-nav.js */
@@ -508,7 +532,7 @@ main {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  transform: translateX(-150%);
+  transform: translateX(-165%);
   z-index: 1;
   background-position: center;
   background-size: cover;
@@ -535,19 +559,20 @@ main {
 }
 
 .content {
-  width: min(30vw,400px);
+  
+  width: min(1000vw,1000vw);
   position: absolute;
-  top: 50%;
-  left: 3rem;
-  transform: translateY(-50%);
-  font: 400 0.85rem helvetica,sans-serif;
+  top: 30%;
+  left: 8rem;
+  transform: translateY(-50%); 
   color: white;
   text-shadow: 0 3px 8px rgba(0,0,0,0.5);
   opacity: 0;
   display: none;
+  
 
   & .title {
-    font-family: 'arial-black';
+    
     text-transform: uppercase;
     font-size: 60px;
   }
@@ -564,11 +589,24 @@ main {
     color: white;
     border: 2px solid white;
     border-radius: 0.25rem;
-    padding: 0.75rem;
+    padding: 1rem;
     cursor: pointer;
   }
 }
+@media (min-width: 50rem) {
+  .title{
+  
+    font-family: "Agbalumo", system-ui;
+    font-weight: 200;
+    font-style: normal;
+    font-size: calc(1em + 1vw);
+  line-height: 1em;
+  padding: 1em;
+  margin: 1em;
+  }
+}
 
+ 
 .item:nth-of-type(2) .content {
   display: block;
   animation: show 0.75s ease-in-out 0.3s forwards;
@@ -598,7 +636,7 @@ main {
     color: rgba(0,0,0,0.7);
     border: 15px solid rgba(0,0,0,0.6);
     margin: 0 0.25rem;
-    padding: 0.75rem;
+    padding: 1rem;
     border-radius: 50%;
     cursor: pointer;
 
