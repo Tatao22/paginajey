@@ -140,6 +140,19 @@ background: linear-gradient(90deg, rgb(0, 36, 13) 0%, rgba(9,121,43,1) 47%, rgb(
     width: 100;
     
 }
+.section9 {
+  text-align: center;
+	padding: 70px 0;
+  background-image: url("../images/estudiodegrabacion.jpg"); 
+    background-size: cover;
+    height: 855px;
+    width: 100;
+    
+}
+iframe{
+  transform: translateX(-90%); 
+  transform: translateY(20%); 
+}
 .video {
   position: relative;
   overflow: hidden;
@@ -165,6 +178,7 @@ background: linear-gradient(90deg, rgb(0, 36, 13) 0%, rgba(9,121,43,1) 47%, rgb(
   background-image: url("../images/estudioultimo.jpg"); 
   background-size: cover;
   height: 855px;
+  width: 100;
  }
 
 
