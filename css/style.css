@@ -148,10 +148,11 @@ background: linear-gradient(90deg, rgb(0, 36, 13) 0%, rgba(9,121,43,1) 47%, rgb(
     height: 855px;
     width: 100;
     
+    
 }
-iframe{
-  transform: translateX(-90%); 
-  transform: translateY(20%); 
+.frame2{
+  transform: translateY(150%); 
+  
 }
 .video {
   position: relative;
@@ -173,7 +174,7 @@ iframe{
 
 
 .section2{
- text-align: left;
+ text-align: center ;
   padding: 70px 0;
   background-image: url("../images/estudioultimo.jpg"); 
   background-size: cover;
